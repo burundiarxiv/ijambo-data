@@ -47,8 +47,8 @@ def process_json():
     with f2:
         data = json.loads(f2.read())
         dataframe = pd.json_normalize(data, record_path =['games'])
-        #dataframe['listguesses'] = [','.join(map(str, l)) for l in dataframe['guesses']]
-        #dataframe['count_guesses'] = dataframe['listguesses'].str.split(',').str.len()
+        dataframe['list_guesses'] = [','.join(map(str, l)) for l in dataframe['guesses']]
+        dataframe['count_guesses'] = dataframe['list_guesses'].str.split(',').str.len()
         #dataframe['score'] = dataframe['count_guesses'] * dataframe['time_taken']
 
         dataframe['converted_start_time'] = pd.to_datetime(dataframe['start_time'], utc=True)
