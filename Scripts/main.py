@@ -7,7 +7,6 @@ import json
 import csv
 
 # output files
-
 path = ''
 
 f1 = open('ijambo-data.json', 'w')
