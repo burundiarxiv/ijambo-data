@@ -1,3 +1,3 @@
 # Ijambo Data
 
-Data from ijambo.app API
+Data from [Ijambo](https://www.ijambo.app/) API
