@@ -2,18 +2,22 @@
 
 Data from [Ijambo](https://www.ijambo.app/) API
 
-## ETL
-`main.py`fetches, processes, and saves data from [Ijambo](https://www.ijambo.app/) API.
 
-## Analytics
+---
 
-Navigate to the Scripts directory and open the `ijambo-analytics.ipynb` Jupyter notebook.
-Execute the cells in the notebook for detailed analytics on the processed data.
+## 🔄 ETL Pipeline
 
-## Visualization with Tableau Desktop
+- **main.py**  
+  - Fetches, processes, and saves data from the Ijambo API.
+  - Automates normalization, time conversion, and CSV export for analysis.
 
-Open Tableau Desktop.
-Select File > Open and navigate to the directory containing the `ijambo-data.csv` file.
-Drag and drop the CSV file into Tableau.
-Use Tableau's drag-and-drop interface to create various visualizations based on the data.
-Once done, you can save, publish, or share your Tableau dashboard.
+## 📊 Analytics
+
+- **ijambo-analytics.ipynb**  
+  - Jupyter notebook for data exploration, profiling, and insights.
+
+## 📈 Visualization (Tableau Desktop)
+
+- Open Tableau Desktop and load `ijambo-data.csv`.
+- Create dashboards using Tableau’s drag-and-drop interface for interactive analysis.
+
